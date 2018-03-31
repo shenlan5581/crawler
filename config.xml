@@ -1,0 +1,16 @@
+<!--  c++ 爬虫配置文件 -->
+<root>
+<!-- for system -->
+     <!--test or release  test for test regex -->
+     <mode>test</mode>
+     <download_file_path>./download</download_file_path>
+ 
+
+<!-- for  parse  regex  at file parse.cpp  -->
+
+<!-- for pthread_pool -->
+     <max_pthreads>8</max_pthreads>
+     <!-- for Jobs queue size -->
+     <max_Jobs>100000</max_Jobs>
+
+</root>
