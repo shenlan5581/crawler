@@ -26,7 +26,7 @@ cout<<"req:"<<url<<endl;
    res = curl_easy_perform(curl);
    curl_easy_cleanup(curl);
  }
-
+cout<<result<<endl;
 return result;
 }
 size_t Curl::write_data_cb(void * buffer,size_t size,size_t nmemb,void *userp) {

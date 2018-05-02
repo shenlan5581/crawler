@@ -10,3 +10,8 @@
              //    http*  ://( **.)**. **(.**)
 
 #define DOWNLOAD "src=\"(http.?://([a-z0-9A-Z\\.]*)\\.com[a-z0-9A-Z-/\\.]*jpg)"
+
+
+
+//旅图网
+#define wwwimgtripcom "src=\"(http.?://([a-z0-9A-Z\\.]*)\\.com[a-z0-9A-Z-/\\.]*jpg!small)"
